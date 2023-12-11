@@ -77,7 +77,7 @@ public class PathFinder
 			}
 			else if(nextLocation == null)
 			{
-				this.maze.setLocationAsVisited(this.stack.peek().getLocation());  // next location
+				this.maze.setLocationAsVisited(this.stack.peek().getLocation());
 				this.stack.pop();
 				return new PathFinderResult(PathFinderStatus.SEARCHING, this.maze.getMazeArray());
 			}
