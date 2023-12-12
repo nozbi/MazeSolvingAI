@@ -1,4 +1,4 @@
-# MazeSolver
+# MazeSolvingAI
 App for solving maze using backtracking without heuristic
 
 
